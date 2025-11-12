@@ -1,0 +1,13 @@
+priority,portal,access_type,notes
+high,TED,api,EU tenders
+high,UNGM,api,UN tenders
+high,WorldBank,api,Global projects
+high,ADB,api,Asia projects
+high,AfDB,api,Africa projects
+high,SAM.gov,api,US federal
+high,UK FTS,api,UK
+high,CanadaBuys,api,CA
+mid,GlobalTenders,api_token,Aggregator
+mid,TendersInfo,api_token,Aggregator
+mid,ProTenders,api_token,ME
+mid,Merx,api_token,CA/US

@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: tenders
+      POSTGRES_USER: tenders_user
+      POSTGRES_PASSWORD: change_me
+    ports: ["5432:5432"]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  app:
+    build: ..
+    env_file:
+      - ../config/.env.example
+    depends_on: [db]
+volumes:
+  pgdata: {}

@@ -1,0 +1,6 @@
+Subject: New relevant tender: {{ title }}
+
+{{ title }}
+Country: {{ country }} | Deadline: {{ deadline }} | Score: {{ score }}
+Link: {{ url }}
+Matched keywords: {{ matched_keywords }}

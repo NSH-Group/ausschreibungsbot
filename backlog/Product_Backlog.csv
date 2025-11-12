@@ -1,0 +1,11 @@
+id,epic,story,acceptance_criteria,estimate_d
+1,Repo,Project bootstrap,"Repo builds in CI, docker-compose up works",1
+2,DB,Create schema,"Tables exist, migrations applied",1
+3,Connectors,Implement TED API connector,"Fetch >20 records; normalized fields; tests green",2
+4,Connectors,UNGM/WB/ADB/AfDB connectors,"Each fetches with pagination & retries; tests",3
+5,Scoring,NLP Keyword scoring,"Score computed; threshold configurable; tests",2
+6,Alerts,Email+Teams alerts,"Notifications for score>=60; rate limited",1
+7,Ops,Scheduler & logging,"Daily job at 05:00 CET; logs persisted",1
+8,Scraper,Playwright login portal,"Auth OK; pagination; normalized output; tests",3
+9,Parser,IMAP email parser,"Parses sample .eml; extracts links & meta",2
+10,QA,Pilot & tuning,"KPIs recorded; precision>=0.8; recall>=0.9 EU/banks",10
