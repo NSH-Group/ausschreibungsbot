@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "tender-monitoring"
+version = "0.1.0"
+description = "Automated tender monitoring system scaffold"
+authors = ["Your Team <team@example.com>"]
+packages = [{ include = "app", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+fastapi = "0.115.0"
+uvicorn = {version = "0.30.6", extras = ["standard"]}
+sqlalchemy = "2.0.35"
+psycopg2-binary = "2.9.9"
+pydantic-settings = "2.5.2"
+python-dotenv = "1.0.1"
+structlog = "24.2.0"
+tenacity = "8.5.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "8.3.2"
+httpx = "0.27.2"
+ruff = "0.6.9"
+black = "24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
