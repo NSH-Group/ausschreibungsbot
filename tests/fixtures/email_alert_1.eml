@@ -1,0 +1,16 @@
+Subject: Daily Tender Alerts
+From: tenders@example.com
+To: user@example.com
+Date: Mon, 13 Jan 2025 10:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Title: Underfloor wheel lathe for depot
+Budget: 1,000,000
+Deadline: 2025-12-31
+
+Please see the tender at:
+https://tenders.example.com/t/123
+
+Regards,
+Tender Bot
